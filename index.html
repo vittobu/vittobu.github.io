@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tracker Spese</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Tracker Spese</h1>
+
+  <form id="entryForm">
+    <input type="text" id="descrizione" placeholder="Descrizione" required>
+    <input type="number" id="importo" placeholder="Importo" required>
+    <select id="tipo">
+      <option value="entrata">Entrata</option>
+      <option value="uscita">Uscita</option>
+    </select>
+    <button type="submit">Aggiungi</button>
+  </form>
+
+  <button id="exportBtn">Esporta Dati</button>
+  <input type="file" id="importFile" style="display:none">
+  <button id="importBtn">Importa Dati</button>
+
+  <ul id="lista"></ul>
+
+  <script src="app.js"></script>
+</body>
+</html>

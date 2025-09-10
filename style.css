@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+form input, form select, form button {
+  margin: 5px 0;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
